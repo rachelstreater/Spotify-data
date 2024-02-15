@@ -5,6 +5,7 @@ Pipeline to pull data from the Spotify API using a Flask application and write i
 ### To do 
 
 - Set up an SSH tunnel to connect to the RDS instance and allow airflow to write to the DB
+- Get dag running the flask application
 
 
 
