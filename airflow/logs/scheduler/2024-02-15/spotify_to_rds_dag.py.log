@@ -233,3 +233,10 @@
 [2024-02-15T09:06:48.086+0000] {logging_mixin.py:188} INFO - [2024-02-15T09:06:48.086+0000] {dag.py:3036} INFO - Sync 1 DAGs
 [2024-02-15T09:06:48.122+0000] {logging_mixin.py:188} INFO - [2024-02-15T09:06:48.122+0000] {dag.py:3823} INFO - Setting next_dagrun for spotify_to_rds_dag to 2024-02-15 00:00:00+00:00, run_after=2024-02-16 00:00:00+00:00
 [2024-02-15T09:06:48.129+0000] {processor.py:183} INFO - Processing /Users/rachel/Library/Mobile Documents/com~apple~CloudDocs/Documents/dev/SpotifyETL/airflow/dags/spotify_to_rds_dag.py took 0.411 seconds
+[2024-02-15T09:07:19.178+0000] {processor.py:161} INFO - Started process (PID=96451) to work on /Users/rachel/Library/Mobile Documents/com~apple~CloudDocs/Documents/dev/SpotifyETL/airflow/dags/spotify_to_rds_dag.py
+[2024-02-15T09:07:19.180+0000] {processor.py:830} INFO - Processing file /Users/rachel/Library/Mobile Documents/com~apple~CloudDocs/Documents/dev/SpotifyETL/airflow/dags/spotify_to_rds_dag.py for tasks to queue
+[2024-02-15T09:07:19.180+0000] {logging_mixin.py:188} INFO - [2024-02-15T09:07:19.180+0000] {dagbag.py:538} INFO - Filling up the DagBag from /Users/rachel/Library/Mobile Documents/com~apple~CloudDocs/Documents/dev/SpotifyETL/airflow/dags/spotify_to_rds_dag.py
+[2024-02-15T09:07:19.563+0000] {processor.py:840} INFO - DAG(s) 'spotify_to_rds_dag' retrieved from /Users/rachel/Library/Mobile Documents/com~apple~CloudDocs/Documents/dev/SpotifyETL/airflow/dags/spotify_to_rds_dag.py
+[2024-02-15T09:07:19.588+0000] {logging_mixin.py:188} INFO - [2024-02-15T09:07:19.588+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-15T09:07:19.623+0000] {logging_mixin.py:188} INFO - [2024-02-15T09:07:19.623+0000] {dag.py:3823} INFO - Setting next_dagrun for spotify_to_rds_dag to 2024-02-15 00:00:00+00:00, run_after=2024-02-16 00:00:00+00:00
+[2024-02-15T09:07:19.629+0000] {processor.py:183} INFO - Processing /Users/rachel/Library/Mobile Documents/com~apple~CloudDocs/Documents/dev/SpotifyETL/airflow/dags/spotify_to_rds_dag.py took 0.451 seconds
