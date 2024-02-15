@@ -27,7 +27,7 @@ def call_flask_app(**kwargs):
     # You can customize the endpoint and method based on your Flask app configuration
     response = SimpleHttpOperator(
         task_id='call_flask_app',
-        http_conn_id='http://127.0.0.1:5000/saveTop50',  # Specify your HTTP connection ID
+        http_conn_id='http://127.0.0.1:5000',  # Specify your HTTP connection ID
         endpoint='/saveTop50',
         method='GET',
         xcom_push=True,  # Push the entire response to XCom
