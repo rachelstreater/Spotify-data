@@ -1,0 +1,32 @@
+[2024-02-12T08:34:13.519+0000] {processor.py:161} INFO - Started process (PID=29089) to work on /Users/rachel/.local/share/virtualenvs/SpotifyETL-kuoYQhpC/lib/python3.11/site-packages/airflow/example_dags/tutorial.py
+[2024-02-12T08:34:13.519+0000] {processor.py:830} INFO - Processing file /Users/rachel/.local/share/virtualenvs/SpotifyETL-kuoYQhpC/lib/python3.11/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2024-02-12T08:34:13.520+0000] {logging_mixin.py:188} INFO - [2024-02-12T08:34:13.519+0000] {dagbag.py:538} INFO - Filling up the DagBag from /Users/rachel/.local/share/virtualenvs/SpotifyETL-kuoYQhpC/lib/python3.11/site-packages/airflow/example_dags/tutorial.py
+[2024-02-12T08:34:13.522+0000] {processor.py:840} INFO - DAG(s) 'tutorial' retrieved from /Users/rachel/.local/share/virtualenvs/SpotifyETL-kuoYQhpC/lib/python3.11/site-packages/airflow/example_dags/tutorial.py
+[2024-02-12T08:34:13.593+0000] {logging_mixin.py:188} INFO - [2024-02-12T08:34:13.593+0000] {override.py:1769} INFO - Created Permission View: can delete on DAG:tutorial
+[2024-02-12T08:34:13.595+0000] {logging_mixin.py:188} INFO - [2024-02-12T08:34:13.595+0000] {override.py:1769} INFO - Created Permission View: can read on DAG:tutorial
+[2024-02-12T08:34:13.597+0000] {logging_mixin.py:188} INFO - [2024-02-12T08:34:13.597+0000] {override.py:1769} INFO - Created Permission View: can edit on DAG:tutorial
+[2024-02-12T08:34:13.597+0000] {logging_mixin.py:188} INFO - [2024-02-12T08:34:13.597+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-12T08:34:13.600+0000] {logging_mixin.py:188} INFO - [2024-02-12T08:34:13.600+0000] {dag.py:3058} INFO - Creating ORM DAG for tutorial
+[2024-02-12T08:34:13.602+0000] {logging_mixin.py:188} INFO - [2024-02-12T08:34:13.602+0000] {dag.py:3823} INFO - Setting next_dagrun for tutorial to 2024-02-11 00:00:00+00:00, run_after=2024-02-12 00:00:00+00:00
+[2024-02-12T08:34:13.608+0000] {processor.py:183} INFO - Processing /Users/rachel/.local/share/virtualenvs/SpotifyETL-kuoYQhpC/lib/python3.11/site-packages/airflow/example_dags/tutorial.py took 0.089 seconds
+[2024-02-12T08:34:45.309+0000] {processor.py:161} INFO - Started process (PID=29142) to work on /Users/rachel/.local/share/virtualenvs/SpotifyETL-kuoYQhpC/lib/python3.11/site-packages/airflow/example_dags/tutorial.py
+[2024-02-12T08:34:45.310+0000] {processor.py:830} INFO - Processing file /Users/rachel/.local/share/virtualenvs/SpotifyETL-kuoYQhpC/lib/python3.11/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2024-02-12T08:34:45.310+0000] {logging_mixin.py:188} INFO - [2024-02-12T08:34:45.310+0000] {dagbag.py:538} INFO - Filling up the DagBag from /Users/rachel/.local/share/virtualenvs/SpotifyETL-kuoYQhpC/lib/python3.11/site-packages/airflow/example_dags/tutorial.py
+[2024-02-12T08:34:45.312+0000] {processor.py:840} INFO - DAG(s) 'tutorial' retrieved from /Users/rachel/.local/share/virtualenvs/SpotifyETL-kuoYQhpC/lib/python3.11/site-packages/airflow/example_dags/tutorial.py
+[2024-02-12T08:34:45.315+0000] {logging_mixin.py:188} INFO - [2024-02-12T08:34:45.315+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-12T08:34:45.361+0000] {logging_mixin.py:188} INFO - [2024-02-12T08:34:45.361+0000] {dag.py:3823} INFO - Setting next_dagrun for tutorial to 2024-02-11 00:00:00+00:00, run_after=2024-02-12 00:00:00+00:00
+[2024-02-12T08:34:45.367+0000] {processor.py:183} INFO - Processing /Users/rachel/.local/share/virtualenvs/SpotifyETL-kuoYQhpC/lib/python3.11/site-packages/airflow/example_dags/tutorial.py took 0.058 seconds
+[2024-02-12T08:40:00.110+0000] {processor.py:161} INFO - Started process (PID=30029) to work on /Users/rachel/.local/share/virtualenvs/SpotifyETL-kuoYQhpC/lib/python3.11/site-packages/airflow/example_dags/tutorial.py
+[2024-02-12T08:40:00.111+0000] {processor.py:830} INFO - Processing file /Users/rachel/.local/share/virtualenvs/SpotifyETL-kuoYQhpC/lib/python3.11/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2024-02-12T08:40:00.111+0000] {logging_mixin.py:188} INFO - [2024-02-12T08:40:00.111+0000] {dagbag.py:538} INFO - Filling up the DagBag from /Users/rachel/.local/share/virtualenvs/SpotifyETL-kuoYQhpC/lib/python3.11/site-packages/airflow/example_dags/tutorial.py
+[2024-02-12T08:40:00.114+0000] {processor.py:840} INFO - DAG(s) 'tutorial' retrieved from /Users/rachel/.local/share/virtualenvs/SpotifyETL-kuoYQhpC/lib/python3.11/site-packages/airflow/example_dags/tutorial.py
+[2024-02-12T08:40:00.185+0000] {logging_mixin.py:188} INFO - [2024-02-12T08:40:00.185+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-12T08:40:00.190+0000] {logging_mixin.py:188} INFO - [2024-02-12T08:40:00.190+0000] {dag.py:3823} INFO - Setting next_dagrun for tutorial to 2024-02-11 00:00:00+00:00, run_after=2024-02-12 00:00:00+00:00
+[2024-02-12T08:40:00.195+0000] {processor.py:183} INFO - Processing /Users/rachel/.local/share/virtualenvs/SpotifyETL-kuoYQhpC/lib/python3.11/site-packages/airflow/example_dags/tutorial.py took 0.085 seconds
+[2024-02-12T08:41:20.109+0000] {processor.py:161} INFO - Started process (PID=30087) to work on /Users/rachel/.local/share/virtualenvs/SpotifyETL-kuoYQhpC/lib/python3.11/site-packages/airflow/example_dags/tutorial.py
+[2024-02-12T08:41:20.111+0000] {processor.py:830} INFO - Processing file /Users/rachel/.local/share/virtualenvs/SpotifyETL-kuoYQhpC/lib/python3.11/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2024-02-12T08:41:20.111+0000] {logging_mixin.py:188} INFO - [2024-02-12T08:41:20.111+0000] {dagbag.py:538} INFO - Filling up the DagBag from /Users/rachel/.local/share/virtualenvs/SpotifyETL-kuoYQhpC/lib/python3.11/site-packages/airflow/example_dags/tutorial.py
+[2024-02-12T08:41:20.114+0000] {processor.py:840} INFO - DAG(s) 'tutorial' retrieved from /Users/rachel/.local/share/virtualenvs/SpotifyETL-kuoYQhpC/lib/python3.11/site-packages/airflow/example_dags/tutorial.py
+[2024-02-12T08:41:20.159+0000] {logging_mixin.py:188} INFO - [2024-02-12T08:41:20.159+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-12T08:41:20.166+0000] {logging_mixin.py:188} INFO - [2024-02-12T08:41:20.166+0000] {dag.py:3823} INFO - Setting next_dagrun for tutorial to 2024-02-11 00:00:00+00:00, run_after=2024-02-12 00:00:00+00:00
+[2024-02-12T08:41:20.171+0000] {processor.py:183} INFO - Processing /Users/rachel/.local/share/virtualenvs/SpotifyETL-kuoYQhpC/lib/python3.11/site-packages/airflow/example_dags/tutorial.py took 0.062 seconds
