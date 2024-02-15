@@ -32009,3 +32009,163 @@ File Path                                                                       
 ----------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
 /Users/rachel/Library/Mobile Documents/com~apple~CloudDocs/Documents/dev/SpotifyETL/airflow/dags/spotify_to_rds_dag.py                           1           0  1.21s           2024-02-15T08:56:52
 ================================================================================
+[2024-02-15T08:57:39.896+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/rachel/Library/Mobile Documents/com~apple~CloudDocs/Documents/dev/SpotifyETL/airflow/dags/spotify_to_rds_dag.py                           1           0  1.34s           2024-02-15T08:57:23
+================================================================================
+[2024-02-15T08:58:10.294+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/rachel/Library/Mobile Documents/com~apple~CloudDocs/Documents/dev/SpotifyETL/airflow/dags/spotify_to_rds_dag.py                           1           0  1.43s           2024-02-15T08:57:55
+================================================================================
+[2024-02-15T08:58:40.575+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/rachel/Library/Mobile Documents/com~apple~CloudDocs/Documents/dev/SpotifyETL/airflow/dags/spotify_to_rds_dag.py                           1           0  1.01s           2024-02-15T08:58:26
+================================================================================
+[2024-02-15T08:58:50.395+0000] {manager.py:738} INFO - Searching for files in /different/path/to/dags/folder
+[2024-02-15T08:58:50.397+0000] {manager.py:741} INFO - There are 0 files in /different/path/to/dags/folder
+[2024-02-15T08:59:10.953+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/rachel/Library/Mobile Documents/com~apple~CloudDocs/Documents/dev/SpotifyETL/airflow/dags/spotify_to_rds_dag.py                           1           0  1.34s           2024-02-15T08:58:57
+================================================================================
+[2024-02-15T08:59:41.325+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/rachel/Library/Mobile Documents/com~apple~CloudDocs/Documents/dev/SpotifyETL/airflow/dags/spotify_to_rds_dag.py                           1           0  1.32s           2024-02-15T08:59:29
+================================================================================
+[2024-02-15T09:00:11.598+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/rachel/Library/Mobile Documents/com~apple~CloudDocs/Documents/dev/SpotifyETL/airflow/dags/spotify_to_rds_dag.py                           1           0  1.24s           2024-02-15T09:00:00
+================================================================================
+[2024-02-15T09:00:28.554+0000] {manager.py:738} INFO - Searching for files in /Users/rachel/Library/Mobile Documents/com~apple~CloudDocs/Documents/dev/SpotifyETL/airflow/dags
+[2024-02-15T09:00:28.556+0000] {manager.py:741} INFO - There are 1 files in /Users/rachel/Library/Mobile Documents/com~apple~CloudDocs/Documents/dev/SpotifyETL/airflow/dags
+[2024-02-15T09:00:41.801+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/rachel/Library/Mobile Documents/com~apple~CloudDocs/Documents/dev/SpotifyETL/airflow/dags/spotify_to_rds_dag.py                           1           0  1.23s           2024-02-15T09:00:31
+================================================================================
+[2024-02-15T09:01:12.332+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/rachel/Library/Mobile Documents/com~apple~CloudDocs/Documents/dev/SpotifyETL/airflow/dags/spotify_to_rds_dag.py                           1           0  1.27s           2024-02-15T09:01:03
+================================================================================
+[2024-02-15T09:01:42.654+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/rachel/Library/Mobile Documents/com~apple~CloudDocs/Documents/dev/SpotifyETL/airflow/dags/spotify_to_rds_dag.py                           1           0  1.33s           2024-02-15T09:01:34
+================================================================================
+[2024-02-15T09:02:12.920+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/rachel/Library/Mobile Documents/com~apple~CloudDocs/Documents/dev/SpotifyETL/airflow/dags/spotify_to_rds_dag.py                           1           0  1.24s           2024-02-15T09:02:05
+================================================================================
+[2024-02-15T09:02:43.151+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/rachel/Library/Mobile Documents/com~apple~CloudDocs/Documents/dev/SpotifyETL/airflow/dags/spotify_to_rds_dag.py                           1           0  1.20s           2024-02-15T09:02:37
+================================================================================
+[2024-02-15T09:03:13.513+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/rachel/Library/Mobile Documents/com~apple~CloudDocs/Documents/dev/SpotifyETL/airflow/dags/spotify_to_rds_dag.py                           1           0  1.33s           2024-02-15T09:03:08
+================================================================================
+[2024-02-15T09:03:44.010+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/rachel/Library/Mobile Documents/com~apple~CloudDocs/Documents/dev/SpotifyETL/airflow/dags/spotify_to_rds_dag.py                           1           0  1.30s           2024-02-15T09:03:39
+================================================================================
+[2024-02-15T09:03:50.511+0000] {manager.py:738} INFO - Searching for files in /different/path/to/dags/folder
+[2024-02-15T09:03:50.514+0000] {manager.py:741} INFO - There are 0 files in /different/path/to/dags/folder
+[2024-02-15T09:04:14.333+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/rachel/Library/Mobile Documents/com~apple~CloudDocs/Documents/dev/SpotifyETL/airflow/dags/spotify_to_rds_dag.py                           1           0  1.30s           2024-02-15T09:04:11
+================================================================================
+[2024-02-15T09:04:44.741+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/rachel/Library/Mobile Documents/com~apple~CloudDocs/Documents/dev/SpotifyETL/airflow/dags/spotify_to_rds_dag.py                           1           0  1.37s           2024-02-15T09:04:42
+================================================================================
+[2024-02-15T09:05:15.069+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/rachel/Library/Mobile Documents/com~apple~CloudDocs/Documents/dev/SpotifyETL/airflow/dags/spotify_to_rds_dag.py                           1           0  1.30s           2024-02-15T09:05:14
+================================================================================
+[2024-02-15T09:05:28.723+0000] {manager.py:738} INFO - Searching for files in /Users/rachel/Library/Mobile Documents/com~apple~CloudDocs/Documents/dev/SpotifyETL/airflow/dags
+[2024-02-15T09:05:28.727+0000] {manager.py:741} INFO - There are 1 files in /Users/rachel/Library/Mobile Documents/com~apple~CloudDocs/Documents/dev/SpotifyETL/airflow/dags
+[2024-02-15T09:05:45.373+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/rachel/Library/Mobile Documents/com~apple~CloudDocs/Documents/dev/SpotifyETL/airflow/dags/spotify_to_rds_dag.py                           1           0  1.27s           2024-02-15T09:05:45
+================================================================================
+[2024-02-15T09:06:16.889+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/rachel/Library/Mobile Documents/com~apple~CloudDocs/Documents/dev/SpotifyETL/airflow/dags/spotify_to_rds_dag.py                           1           0  1.46s           2024-02-15T09:06:16
+================================================================================
+[2024-02-15T09:06:48.282+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/rachel/Library/Mobile Documents/com~apple~CloudDocs/Documents/dev/SpotifyETL/airflow/dags/spotify_to_rds_dag.py                           1           0  1.35s           2024-02-15T09:06:48
+================================================================================
