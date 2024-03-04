@@ -1,0 +1,42 @@
+[2024-02-15T14:32:44.404+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: spotify_to_rds_dag.convert_json_task manual__2024-02-15T14:31:39.838647+00:00 [queued]>
+[2024-02-15T14:32:44.406+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: spotify_to_rds_dag.convert_json_task manual__2024-02-15T14:31:39.838647+00:00 [queued]>
+[2024-02-15T14:32:44.406+0000] {taskinstance.py:2170} INFO - Starting attempt 2 of 2
+[2024-02-15T14:32:44.409+0000] {taskinstance.py:2191} INFO - Executing <Task(PythonOperator): convert_json_task> on 2024-02-15 14:31:39.838647+00:00
+[2024-02-15T14:32:44.413+0000] {standard_task_runner.py:60} INFO - Started process 4695 to run task
+[2024-02-15T14:32:44.415+0000] {standard_task_runner.py:87} INFO - Running: ['airflow', 'tasks', 'run', 'spotify_to_rds_dag', 'convert_json_task', 'manual__2024-02-15T14:31:39.838647+00:00', '--job-id', '40', '--raw', '--subdir', '/Users/rachel/Library/Mobile Documents/com~apple~CloudDocs/Documents/dev/SpotifyETL/airflow/dags/spotify_to_rds_dag.py', '--cfg-path', '/var/folders/85/0h16y03s0t59r_hcf0nwnhnr0000gn/T/tmpua68d4k5']
+[2024-02-15T14:32:44.416+0000] {standard_task_runner.py:88} INFO - Job 40: Subtask convert_json_task
+[2024-02-15T14:32:44.433+0000] {task_command.py:423} INFO - Running <TaskInstance: spotify_to_rds_dag.convert_json_task manual__2024-02-15T14:31:39.838647+00:00 [running]> on host rachels-mbp
+[2024-02-15T14:32:44.449+0000] {taskinstance.py:2480} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='spotify_to_rds_dag' AIRFLOW_CTX_TASK_ID='convert_json_task' AIRFLOW_CTX_EXECUTION_DATE='2024-02-15T14:31:39.838647+00:00' AIRFLOW_CTX_TRY_NUMBER='2' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-02-15T14:31:39.838647+00:00'
+[2024-02-15T14:32:44.452+0000] {taskinstance.py:2698} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/Users/rachel/.local/share/virtualenvs/SpotifyETL-kuoYQhpC/lib/python3.11/site-packages/airflow/models/taskinstance.py", line 433, in _execute_task
+    result = execute_callable(context=context, **execute_callable_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rachel/.local/share/virtualenvs/SpotifyETL-kuoYQhpC/lib/python3.11/site-packages/airflow/operators/python.py", line 199, in execute
+    return_value = self.execute_callable()
+                   ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rachel/.local/share/virtualenvs/SpotifyETL-kuoYQhpC/lib/python3.11/site-packages/airflow/operators/python.py", line 216, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rachel/Library/Mobile Documents/com~apple~CloudDocs/Documents/dev/SpotifyETL/airflow/dags/spotify_to_rds_dag.py", line 48, in convert_json_to_dataframe
+    df = pd.read_json(response_data, orient='records')
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rachel/.local/share/virtualenvs/SpotifyETL-kuoYQhpC/lib/python3.11/site-packages/pandas/io/json/_json.py", line 791, in read_json
+    json_reader = JsonReader(
+                  ^^^^^^^^^^^
+  File "/Users/rachel/.local/share/virtualenvs/SpotifyETL-kuoYQhpC/lib/python3.11/site-packages/pandas/io/json/_json.py", line 904, in __init__
+    data = self._get_data_from_filepath(filepath_or_buffer)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rachel/.local/share/virtualenvs/SpotifyETL-kuoYQhpC/lib/python3.11/site-packages/pandas/io/json/_json.py", line 944, in _get_data_from_filepath
+    self.handles = get_handle(
+                   ^^^^^^^^^^^
+  File "/Users/rachel/.local/share/virtualenvs/SpotifyETL-kuoYQhpC/lib/python3.11/site-packages/pandas/io/common.py", line 728, in get_handle
+    ioargs = _get_filepath_or_buffer(
+             ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rachel/.local/share/virtualenvs/SpotifyETL-kuoYQhpC/lib/python3.11/site-packages/pandas/io/common.py", line 472, in _get_filepath_or_buffer
+    raise ValueError(msg)
+ValueError: Invalid file path or buffer object type: <class 'NoneType'>
+[2024-02-15T14:32:44.456+0000] {taskinstance.py:1138} INFO - Marking task as FAILED. dag_id=spotify_to_rds_dag, task_id=convert_json_task, execution_date=20240215T143139, start_date=20240215T143244, end_date=20240215T143244
+[2024-02-15T14:32:44.458+0000] {standard_task_runner.py:107} ERROR - Failed to execute job 40 for task convert_json_task (Invalid file path or buffer object type: <class 'NoneType'>; 4695)
+[2024-02-15T14:32:44.477+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 1
+[2024-02-15T14:32:44.483+0000] {taskinstance.py:3280} INFO - 0 downstream tasks scheduled from follow-on schedule check

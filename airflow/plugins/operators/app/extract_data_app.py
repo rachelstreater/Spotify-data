@@ -81,15 +81,16 @@ def save_top50():
     # convert the df to json
     json_data = df.to_json(orient='records')
     
-    # Send JSON response with DataFrame data
+    # # Send JSON response with DataFrame data
     response = make_response(json_data)
-    response.headers['Content-Type'] = 'application/json'
+    # response.headers['Content-Type'] = 'application/json'
     
     # # write to temp file
     # TEMP_FILE_PATH = f'/tmp/spotify_data{timestamp}.csv'
     # df.to_csv(TEMP_FILE_PATH, encoding='utf-8')
     
-    # return a success message
+    # return response
+    print(json_data)
     return response
 
 # function to get the token info from the session
@@ -118,7 +119,8 @@ def create_spotify_oauth():
     )
     
 
-if __name__ == '__main__':
+def run_etl():
     app.run(debug=True)
+
 
 # TODO: move the client_id and client_secret to an env 
